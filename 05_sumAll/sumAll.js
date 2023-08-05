@@ -2,8 +2,8 @@ const sumAll = function (startNumber, endNumber) {
   if (
     startNumber < 0 ||
     endNumber < 0 ||
-    typeof startNumber != "number" ||
-    typeof endNumber != "number"
+    !Number.isInteger(startNumber) ||
+    !Number.isInteger(endNumber)
   ) {
     return "ERROR";
   }

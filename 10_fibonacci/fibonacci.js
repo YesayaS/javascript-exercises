@@ -1,6 +1,5 @@
 const fibonacci = function (number) {
   if (number < 0) return "OOPS";
-  parseInt(number);
   if (number == 0 || number == 1) return 1;
   f0 = 0;
   f1 = 1;
